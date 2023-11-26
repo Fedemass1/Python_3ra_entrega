@@ -18,6 +18,7 @@ def mostrar_clientes(request):
 
     return render(request, "App/mostrar_clientes.html", contexto)
 
+
 def agregar_cliente_form(request):
     cliente = ClienteForm
     contexto = {
