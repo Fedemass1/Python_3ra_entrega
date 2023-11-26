@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block cambio %}
+
+    {% for cliente in clientes %}
+        <h2> {{ cliente.nombre }} </h2>
+        <p class="lead mb-0">
+            Numero de documento: {{ cliente.dni }}
+            <p class="lead mb-0">
+            Correo electrónico: {{ cliente.email }}
+        </p>
+        <hr>
+    {% endfor %}
+
+{% endblock %}
