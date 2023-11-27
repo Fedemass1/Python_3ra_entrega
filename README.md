@@ -21,3 +21,5 @@ Productos: Se accede desde /app/mostrar_productos/ y muestra el nombre del produ
 
 Ventas: Se accede desde /app/mostrar_ventas/ y muestra las ventas realizadas, es decir: nombre del producto vendido, DNI del cliente y cantidad de esos objetos vendidos en la misma transacción a ese cliente.
 
+PASOS PARA LA PUESTA EN FUNCIONAMIENTO DEL PORTAL DE VENTAS Y CLIENTES
+
