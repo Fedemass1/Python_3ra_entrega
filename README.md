@@ -32,6 +32,7 @@ PASOS PARA LA PUESTA EN FUNCIONAMIENTO DEL PORTAL DE VENTAS Y CLIENTES
    python manage.py migrate (se hace por única vez)
    python manage.py runserver (se hace cada vez que se quiera poner en funcionamiento el servidor. Se puede automatizar en el IDE si se configura la ejecución mediante el modulo 'manage' y el comando
    'runserver'
+   
 4)Una vez que se ejecute runserver, y si ha salido todo bien debería aparecer en la consola una dirección parecida o igual a esta http://127.0.0.1:8000/
   Por medio de esta usar un navegador para acceder a esta y agregarle al final app/show/ Es decir, quedaría la ruta completa del ejemplo http://127.0.0.1:8000/app/show/
   Al ingresar esta dirección en el navegador web se abrirá el portal de compras en la pantalla de inicio. Esta pantalla sólo es a los efectos de dar la bienvenida al usuario, luego no se usará más ya
