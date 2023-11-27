@@ -15,5 +15,6 @@ class Producto(models.Model):
 
 class Venta(models.Model):
     dni = models.CharField(max_length=10)
-    id_producto = models.CharField(max_length=10)
-    cantidad_vendida = models.IntegerField(5)
+    nombre_producto = models.CharField(max_length=50)
+    cantidad_vendida = models.IntegerField()
+

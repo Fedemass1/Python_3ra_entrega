@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block cambio %}
+
+    {% for producto in productos %}
+        <h2> {{ producto.nombre_producto }} </h2>
+        <p class="lead mb-0">
+            ID producto: {{ producto.id_producto }}
+        <p class="lead mb-0">
+            Precio de venta: {{ producto.precio_venta }}
+        </p>
+
+    {% endfor %}
+
+
+    <hr>
+
+
+{% endblock %}

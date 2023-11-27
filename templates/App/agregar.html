@@ -1,9 +1,9 @@
-{#Creo el formulario desde HTML.#}
-
 {%  extends 'base.html'  %}
 
 {% block cambio %}
+
     <form action="" method="POST">
+
         {% csrf_token %}
 
         {{ form.as_p }}
