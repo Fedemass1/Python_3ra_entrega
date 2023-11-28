@@ -37,7 +37,7 @@ def agregar_cliente_form(request):
                                     email=informacion["email"])
             cliente_crear.save()
 
-            return redirect("/app/mostrar")
+            return redirect("/app/mostrar_clientes")
 
     return render(request, "App/agregar.html", contexto)
 
